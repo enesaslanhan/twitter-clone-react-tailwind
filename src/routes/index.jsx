@@ -2,6 +2,7 @@ import { createBrowserRouter } from 'react-router-dom';
 import Home from "../pages/home"
 import Explore from "../pages/explore"
 import MainLayout from '../layouts/main';
+import Notification from '../pages/notiffications';
 const routes=createBrowserRouter([
     {
         path:'/',
@@ -14,6 +15,10 @@ const routes=createBrowserRouter([
             {
                 path:'/explore',
                 element:<Explore/>
+            },
+            {
+                path:'/notification',
+                element:<Notification/>
             }
         ]
     }
