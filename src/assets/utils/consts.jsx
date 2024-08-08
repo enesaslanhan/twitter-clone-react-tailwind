@@ -1,3 +1,5 @@
+import store from "../../store";
+const states=store.getState()
 export const mainMenu = [
   {
     path: "/",
@@ -67,11 +69,11 @@ export const mainMenu = [
     },
   },
   {
-    path: "",
+    path: "/messages",
     title: "Mesajlar",
     notification:1,
     icons: {
-      active: (
+      passive: (
         <svg viewBox="0 0 24 24" widht={26.25} height={26.25} className="block">
           <path
             fill="#fff"
@@ -79,7 +81,7 @@ export const mainMenu = [
           />
         </svg>
       ),
-      passive: (
+      active: (
         <svg viewBox="0 0 24 24" widht={26.25} height={26.25} className="block">
           <path
             fill="#fff"
@@ -91,7 +93,7 @@ export const mainMenu = [
   },
   {
     path: "/",
-    title: "Mesajlar",
+    title: "Grok",
     icons: {
       active: (
         <svg viewBox="0 0 24 24" widht={26.25} height={26.25} className="block">
@@ -114,7 +116,7 @@ export const mainMenu = [
     },
   },
   {
-    path: "/",
+    path: "/bookmarks",
     title: "Yer İşaretleri",
     icons: {
       active: (
@@ -206,7 +208,7 @@ export const mainMenu = [
     },
   },
   {
-    path: "/",
+    path:`/${states?.auth.currentAccount.username}`,
     title: "Profil",
     icons: {
       active: (

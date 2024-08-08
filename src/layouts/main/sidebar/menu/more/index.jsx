@@ -20,7 +20,7 @@ export default function More() {
       </Popover.Button>
       <Popover.Panel className="w-[318px] absolute bottom-0 left-0 bg-black shadow-box shadow-white rounded-xl">
         <button className="px-4 h-14 w-full overflow-hidden inline-flex items-center gap-5 hover:bg-[#eff3f41a] duration-200">
-          <div className="w-[26.25px] h-[26.25px] relative">
+          <div className="w-[24px] h-[24px] relative">
             <svg viewBox="0 0 24 24">
               <path
                 fill="#fff"
@@ -31,7 +31,7 @@ export default function More() {
           <div className="pr-4 text-xl font-bold">Listeler</div>
         </button>
         <button className="px-4 h-14 w-full overflow-hidden inline-flex items-center gap-5 hover:bg-[#eff3f41a] duration-200">
-          <div className="w-[26.25px] h-[26.25px] relative">
+          <div className="w-[24px] h-[24px] relative">
             <svg viewBox="0 0 24 24">
               <path
                 duration-200
@@ -44,7 +44,7 @@ export default function More() {
         </button>
         
         <button className="px-4 h-14 w-full overflow-hidden inline-flex items-center gap-5 hover:bg-[#eff3f41a] duration-200">
-          <div className="w-[26.25px] h-[26.25px] relative">
+          <div className="w-[24px] h-[24px] relative">
             <svg viewBox="0 0 24 24">
               <path
                 duration-200
@@ -56,7 +56,7 @@ export default function More() {
           <div className="pr-4 text-xl font-bold">Reklamlar</div>
         </button>
         <button className="px-4 h-14 w-full overflow-hidden inline-flex items-center gap-5 hover:bg-[#eff3f41a] duration-200">
-          <div className="w-[26.25px] h-[26.25px] relative">
+          <div className="w-[24px] h-[24px] relative">
             <svg viewBox="0 0 24 24">
               <path
                 duration-200
@@ -68,7 +68,7 @@ export default function More() {
           <div className="pr-4 text-xl font-bold">Meslekler</div>
         </button>
         <button className="px-4 h-14 w-full overflow-hidden inline-flex items-center gap-5 hover:bg-[#eff3f41a] duration-200">
-          <div className="w-[26.25px] h-[26.25px] relative">
+          <div className="w-[24px] h-[24px] relative">
             <svg viewBox="0 0 24 24">
               <path
                 duration-200
@@ -80,7 +80,7 @@ export default function More() {
           <div className="pr-4 text-xl font-bold">Alanınızı yaratın</div>
         </button>
         <button className="px-4 h-14 w-full overflow-hidden inline-flex items-center gap-5 hover:bg-[#eff3f41a] duration-200">
-          <div className="w-[26.25px] h-[26.25px] relative">
+          <div className="w-[24px] h-[24px] relative">
             <svg viewBox="0 0 24 24">
               <path
                 duration-200

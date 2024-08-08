@@ -3,6 +3,10 @@ import Home from "../pages/home"
 import Explore from "../pages/explore"
 import MainLayout from '../layouts/main';
 import Notification from '../pages/notiffications';
+import NotFund from'../pages/notfound'
+import Profile from '../pages/profile';
+import Messages from '../pages/messages';
+import Bookmarks from '../pages/bookmarks';
 const routes=createBrowserRouter([
     {
         path:'/',
@@ -19,6 +23,22 @@ const routes=createBrowserRouter([
             {
                 path:'/notification',
                 element:<Notification/>
+            },
+            {
+                path:':slug',
+                element:<Profile/>
+            },
+            {
+                path:'*',
+                element:<NotFund/>
+            },
+            {
+                path:'/messages',
+                element:<Messages/>
+            },
+            {
+                path:'/bookmarks',
+                element:<Bookmarks/>
             }
         ]
     }
