@@ -232,3 +232,126 @@ export const mainMenu = [
   },
   
 ];
+
+export const topics=[
+  {
+    title:"Türkiye'de trend olanlar",
+    topic:{
+      type:'query',
+      value:'Soför'
+    },
+    postCount:1.151
+  },
+  {
+    title:"Türkiye'de trend olanlar",
+    topic:{
+      type:'tag',
+      value:'kaza'
+    },
+    postCount:8.832
+  },
+  {
+    title:"Türkiye'de trend olanlar",
+    topic:{
+      type:'query',
+      value:'Askerlik'
+    },
+    postCount:5.340
+  },
+  {
+    title:"İş ve Finans trend olanlar",
+    topic:{
+      type:'tag',
+      value:'Maymun Çiçeği'
+    },
+    postCount:"23.3k"
+  },
+  {
+    title:"Spor trend olanlar",
+    topic:{
+      type:'tag',
+      value:'Arda Güler'
+    },
+    postCount:"29.4k"
+  },
+  {
+    title:"Türkiye'de trend olanlar",
+    topic:{
+      type:'query',
+      value:'Soför'
+    },
+    postCount:1.151
+  },
+  {
+    title:"Türkiye'de trend olanlar",
+    topic:{
+      type:'tag',
+      value:'kaza'
+    },
+    postCount:8.832
+  },
+  {
+    title:"Türkiye'de trend olanlar",
+    topic:{
+      type:'query',
+      value:'Askerlik'
+    },
+    postCount:5.340
+  },
+  {
+    title:"İş ve Finans trend olanlar",
+    topic:{
+      type:'tag',
+      value:'Maymun Çiçeği'
+    },
+    postCount:"23.3k"
+  },
+  {
+    title:"Spor trend olanlar",
+    topic:{
+      type:'tag',
+      value:'Arda Güler'
+    },
+    postCount:"29.4k"
+  },
+  {
+    title:"Türkiye'de trend olanlar",
+    topic:{
+      type:'query',
+      value:'Soför'
+    },
+    postCount:1.151
+  },
+  {
+    title:"Türkiye'de trend olanlar",
+    topic:{
+      type:'tag',
+      value:'kaza'
+    },
+    postCount:8.832
+  },
+  {
+    title:"Türkiye'de trend olanlar",
+    topic:{
+      type:'query',
+      value:'Askerlik'
+    },
+    postCount:5.340
+  },
+  {
+    title:"İş ve Finans trend olanlar",
+    topic:{
+      type:'tag',
+      value:'Maymun Çiçeği'
+    },
+    postCount:"23.3k"
+  },
+  {
+    title:"Spor trend olanlar",
+    topic:{
+      type:'tag',
+      value:'Arda Güler'
+    },
+    postCount:"29.4k"
+  }
+]
