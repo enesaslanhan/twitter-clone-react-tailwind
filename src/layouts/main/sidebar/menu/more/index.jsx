@@ -9,13 +9,13 @@ import {setModal} from "../../../../../store/modal/actions";
 
 export default function More() {
   return (
-    <Popover className="relative">
+    <Popover className="relative ">
       <Popover.Button className="py-1 block group outline-none">
-        <div className="p-3 rounded-full inline-flex items-center gap-5 group-hover:bg-[#eff3f41a] duration-300">
+        <div className="p-3 rounded-full  inline-flex items-center gap-5 group-hover:bg-[color:var(--backgraound-secondary)] duration-300">
           <div className="w-[26.25px] h-[26.25px] relative">
             <svg viewBox="0 0 24 24">
               <path
-                fill="#fff"
+                fill="currentColor"
                 d="M3.75 12c0-4.56 3.69-8.25 8.25-8.25s8.25 3.69 8.25 8.25-3.69 8.25-8.25 8.25S3.75 16.56 3.75 12zM12 1.75C6.34 1.75 1.75 6.34 1.75 12S6.34 22.25 12 22.25 22.25 17.66 22.25 12 17.66 1.75 12 1.75zm-4.75 11.5c.69 0 1.25-.56 1.25-1.25s-.56-1.25-1.25-1.25S6 11.31 6 12s.56 1.25 1.25 1.25zm9.5 0c.69 0 1.25-.56 1.25-1.25s-.56-1.25-1.25-1.25-1.25.56-1.25 1.25.56 1.25 1.25 1.25zM13.25 12c0 .69-.56 1.25-1.25 1.25s-1.25-.56-1.25-1.25.56-1.25 1.25-1.25 1.25.56 1.25 1.25z"
               ></path>
             </svg>
@@ -23,24 +23,24 @@ export default function More() {
           <div className="pr-4 text-xl">Daha Fazla</div>
         </div>
       </Popover.Button>
-      <Popover.Panel className="w-[318px] absolute bottom-0 left-0 bg-black shadow-box shadow-white rounded-xl">
-        <button className="px-4 h-14 w-full overflow-hidden inline-flex items-center gap-5 hover:bg-[#eff3f41a] duration-200">
+      <Popover.Panel className="w-[318px] absolute bottom-0 left-0 bg-[color:var(--background-primary)] shadow-box shadow-white rounded-xl">
+        <button className="px-4 h-14 w-full overflow-hidden inline-flex items-center gap-5 hover:bg-[color:var(--background-third)] duration-200">
           <div className="w-[24px] h-[24px] relative">
             <svg viewBox="0 0 24 24">
               <path
-                fill="#fff"
+                fill="currentColor"
                 d="M3 4.5C3 3.12 4.12 2 5.5 2h13C19.88 2 21 3.12 21 4.5v15c0 1.38-1.12 2.5-2.5 2.5h-13C4.12 22 3 20.88 3 19.5v-15zM5.5 4c-.28 0-.5.22-.5.5v15c0 .28.22.5.5.5h13c.28 0 .5-.22.5-.5v-15c0-.28-.22-.5-.5-.5h-13zM16 10H8V8h8v2zm-8 2h8v2H8v-2z"
               ></path>
             </svg>
           </div>
           <div className="pr-4 text-xl font-bold">Listeler</div>
         </button>
-        <button className="px-4 h-14 w-full overflow-hidden inline-flex items-center gap-5 hover:bg-[#eff3f41a] duration-200">
+        <button className="px-4 h-14 w-full overflow-hidden inline-flex items-center gap-5 hover:bg-[color:var(--background-third)] duration-200">
           <div className="w-[24px] h-[24px] relative">
             <svg viewBox="0 0 24 24">
               <path
                 duration-200
-                fill="#fff"
+                fill="currentColor"
                 d="M23 3v14h-2V5H5V3h18zM10 17c1.1 0 2-1.34 2-3s-.9-3-2-3-2 1.34-2 3 .9 3 2 3zM1 7h18v14H1V7zm16 10c-1.1 0-2 .9-2 2h2v-2zm-2-8c0 1.1.9 2 2 2V9h-2zM3 11c1.1 0 2-.9 2-2H3v2zm0 4c2.21 0 4 1.79 4 4h6c0-2.21 1.79-4 4-4v-2c-2.21 0-4-1.79-4-4H7c0 2.21-1.79 4-4 4v2zm0 4h2c0-1.1-.9-2-2-2v2z"
               ></path>
             </svg>
@@ -48,36 +48,36 @@ export default function More() {
           <div className="pr-4 text-xl font-bold">Para kazanma</div>
         </button>
         
-        <button className="px-4 h-14 w-full overflow-hidden inline-flex items-center gap-5 hover:bg-[#eff3f41a] duration-200">
+        <button className="px-4 h-14 w-full overflow-hidden inline-flex items-center gap-5 hover:bg-[color:var(--background-third)] duration-200">
           <div className="w-[24px] h-[24px] relative">
             <svg viewBox="0 0 24 24">
               <path
                 duration-200
-                fill="#fff"
+                fill="currentColor"
                 d="M1.996 5.5c0-1.38 1.119-2.5 2.5-2.5h15c1.38 0 2.5 1.12 2.5 2.5v13c0 1.38-1.12 2.5-2.5 2.5h-15c-1.381 0-2.5-1.12-2.5-2.5v-13zm2.5-.5c-.277 0-.5.22-.5.5v13c0 .28.223.5.5.5h15c.276 0 .5-.22.5-.5v-13c0-.28-.224-.5-.5-.5h-15zm8.085 5H8.996V8h7v7h-2v-3.59l-5.293 5.3-1.415-1.42L12.581 10z"
               ></path>
             </svg>
           </div>
           <div className="pr-4 text-xl font-bold">Reklamlar</div>
         </button>
-        <button className="px-4 h-14 w-full overflow-hidden inline-flex items-center gap-5 hover:bg-[#eff3f41a] duration-200">
+        <button className="px-4 h-14 w-full overflow-hidden inline-flex items-center gap-5 hover:bg-[color:var(--background-third)] duration-200">
           <div className="w-[24px] h-[24px] relative">
             <svg viewBox="0 0 24 24">
               <path
                 duration-200
-                fill="#fff"
+                fill="currentColor"
                 d="M19.5 6H17V4.5C17 3.12 15.88 2 14.5 2h-5C8.12 2 7 3.12 7 4.5V6H4.5C3.12 6 2 7.12 2 8.5v10C2 19.88 3.12 21 4.5 21h15c1.38 0 2.5-1.12 2.5-2.5v-10C22 7.12 20.88 6 19.5 6zM9 4.5c0-.28.23-.5.5-.5h5c.28 0 .5.22.5.5V6H9V4.5zm11 14c0 .28-.22.5-.5.5h-15c-.27 0-.5-.22-.5-.5v-3.04c.59.35 1.27.54 2 .54h5v1h2v-1h5c.73 0 1.41-.19 2-.54v3.04zm0-6.49c0 1.1-.9 1.99-2 1.99h-5v-1h-2v1H6c-1.1 0-2-.9-2-2V8.5c0-.28.23-.5.5-.5h15c.28 0 .5.22.5.5v3.51z"
               ></path>
             </svg>
           </div>
           <div className="pr-4 text-xl font-bold">Meslekler</div>
         </button>
-        <button className="px-4 h-14 w-full overflow-hidden inline-flex items-center gap-5 hover:bg-[#eff3f41a] duration-200">
+        <button className="px-4 h-14 w-full overflow-hidden inline-flex items-center gap-5 hover:bg-[color:var(--background-third)] duration-200">
           <div className="w-[24px] h-[24px] relative">
             <svg viewBox="0 0 24 24">
               <path
                 duration-200
-                fill="#fff"
+                fill="currentColor"
                 d="M12 22.25c-4.99 0-9.18-3.393-10.39-7.994l1.93-.512c.99 3.746 4.4 6.506 8.46 6.506s7.47-2.76 8.46-6.506l1.93.512c-1.21 4.601-5.4 7.994-10.39 7.994zM5 11.5c0 3.866 3.13 7 7 7s7-3.134 7-7V8.75c0-3.866-3.13-7-7-7s-7 3.134-7 7v2.75zm12-2.75v2.75c0 2.761-2.24 5-5 5s-5-2.239-5-5V8.75c0-2.761 2.24-5 5-5s5 2.239 5 5zM11.25 8v4.25c0 .414.34.75.75.75s.75-.336.75-.75V8c0-.414-.34-.75-.75-.75s-.75.336-.75.75zm-3 1v2.25c0 .414.34.75.75.75s.75-.336.75-.75V9c0-.414-.34-.75-.75-.75s-.75.336-.75.75zm7.5 0c0-.414-.34-.75-.75-.75s-.75.336-.75.75v2.25c0 .414.34.75.75.75s.75-.336.75-.75V9z"
               ></path>
             </svg>
@@ -88,7 +88,7 @@ export default function More() {
 					{({open}) => (
 						<>
 							<Disclosure.Button
-								className="flex items-center justify-between w-full p-4 font-bold hover:bg-[color:#eff3f41a] transition-colors">
+								className="flex items-center justify-between w-full p-4 font-bold hover:bg-[color:var(--background-third)] transition-colors">
 								Ayarlar ve Destek
 								<svg viewBox="0 0 24 24" className={classNames("h-[1.172rem]", {
 									"rotate-180 text-[color:var(--color-primary)]": open
@@ -101,7 +101,7 @@ export default function More() {
 							</Disclosure.Button>
 							<Disclosure.Panel>
 								<Link to="/"
-											className="flex items-center px-3 h-11 gap-3 font-medium hover:bg-[color:#eff3f41a] transition-colors">
+											className="flex items-center px-3 h-11 gap-3 font-medium hover:bg-[color:var(--background-third)] transition-colors">
 									<svg viewBox="0 0 24 24" className="h-[1.172rem]">
 										<path
 											fill="currentColor"
@@ -111,7 +111,7 @@ export default function More() {
 									Ayarlar ve gizlilik
 								</Link>
 								<Link to="/"
-											className="flex items-center px-3 h-11 gap-3 font-medium hover:bg-[color:#eff3f41a] transition-colors">
+											className="flex items-center px-3 h-11 gap-3 font-medium hover:bg-[color:var(--background-third)] transition-colors">
 									<svg viewBox="0 0 24 24" className="h-[1.172rem]">
 										<path
 											fill="currentColor"
@@ -122,7 +122,7 @@ export default function More() {
 								</Link>
 								<button
 									onClick={() => setModal('appearance')}
-									className="flex items-center px-3 h-11 w-full gap-3 font-medium hover:bg-[color:#eff3f41a] transition-colors"
+									className="flex items-center px-3 h-11 w-full gap-3 font-medium hover:bg-[color:var(--background-third)] transition-colors"
 								>
 									<svg viewBox="0 0 24 24" className="h-[1.172rem]">
 										<path
@@ -133,7 +133,7 @@ export default function More() {
 									Görünüm
 								</button>
 								<Link to="/"
-											className="flex items-center px-3 h-11 gap-3 font-medium hover:bg-[color:#eff3f41a] transition-colors">
+											className="flex items-center px-3 h-11 gap-3 font-medium hover:bg-[color:var(--background-third)] transition-colors">
 									<svg viewBox="0 0 24 24" className="h-[1.172rem]">
 										<path
 											fill="currentColor"

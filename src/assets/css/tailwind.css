@@ -4,5 +4,8 @@
 
 
 body{
-    @apply bg-[color:var(--background-primary)] text-white
+    @apply bg-[color:var(--background-primary)] text-[color:var(--color-third)]
+}
+.shadow-box{
+    box-shadow: var(--box-shadow);
 }

@@ -12,11 +12,11 @@ export default function Search() {
 
   return (
     <div ref={ref}className="min-h[32px] h-[53px] mb-3 flex items-center sticky top-0 bg-[color:var(--backgroundcolor-primary)] z-[10]">
-      <label className="h-[43px] rounded-full bg-[#202327] w-full flex items-center relative group border border-transparent focus-within:bg-black focus-within:border-[#1d9bf0]">
+      <label className="h-[43px] rounded-full bg-[color:var(--background-third)] w-full flex items-center relative group border border-transparent focus-within:bg-[color:var(--background-primary)] focus-within:border-[#1d9bf0]">
         <div className="w-[56px] h-full flex items-center justify-center absolute top-0 left-0">
           <svg
             viewBox="0 0 24 24"
-            className="text-[#71767b] focus-within:bg-[#1d9bf0]"
+            className="text-[color:var(--color-base-secondary)] focus-within:bg-[#1d9bf0]"
             widht={44}
             height={18.75}
           >
@@ -51,8 +51,8 @@ export default function Search() {
         
       </label>
       {focus&&(
-            <div className="absolute w-[350px] top-full bg-black shadow-box max-h-[calc(80vh-53px)] rounded-lg flex text-center mt-0.5">
-                <p className="pt-5 p-3 text-[#71767b] leading-5">
+            <div className="absolute w-[350px] top-full bg-[color:var(--background-primary)] shadow-box max-h-[calc(80vh-53px)] rounded-lg flex text-center mt-0.5">
+                <p className="pt-5 p-3 text-[color:var(--color-base-secondary)] leading-5">
                 Kişileri, listeleri veya anahtar sözcükleri aramayı deneyin
                 </p>
             </div>

@@ -4,7 +4,7 @@ export default function AppearanceModal() {
       <h3 className="mt-8 mb-3 text-[23px] leading-7 font-extrabold text-center">
         Görünümü özelleştir
       </h3>
-      <div className="p-8 pt-0 text-center leading-5 text-[15px] mb-5 text-[#71767b]">
+      <div className="p-8 pt-0 text-center leading-5 text-[15px] mb-5 text-[color:var(--color-base-secondary)]">
         {" "}
         Bu ayarlar, bu tarayıcıdaki tüm X hesaplarını etkiler.
       </div>
@@ -30,7 +30,7 @@ export default function AppearanceModal() {
                   ></path>
                 </svg>
               </div>
-              <div className="ml-1 flex items-center leading-5 text-[15px] text-[#71767b]">
+              <div className="ml-1 flex items-center leading-5 text-[15px] text-[color:var(--color-base-secondary)]">
                 @X . 10d
               </div>
             </header>

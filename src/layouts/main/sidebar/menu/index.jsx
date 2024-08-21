@@ -12,13 +12,13 @@ export default function Menu() {
           {({ isActive }) => (
             <div
               className={classNames(
-                "p-3 rounded-full inline-flex items-center gap-5 group-hover:bg-[#eff3f41a] duration-300",
+                "p-3 rounded-full inline-flex  items-center gap-5 group-hover:bg-[color:var(--background-third)] duration-300",
                 { "font-bold": isActive }
               )}
             >
               <div className="w-[26.25px] h-[26.25px] relative">
                 {menu?.notification && (
-                  <span className="w-[18px] h-[18px] rounded-full absolute bg-[#1d9bf0] -top-1.5 -right-1 flex items-center justify-center text-[11px]">
+                  <span className="w-[18px] h-[18px]  rounded-full absolute bg-[color:var(--color-primary)] border border-[color:var(--background-primary)] text-[color:var(--background-primary)] -top-1.5 -right-1 flex items-center justify-center text-[11px]">
                     {menu?.notification}
                   </span>
                 )}
