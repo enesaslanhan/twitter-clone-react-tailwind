@@ -1,15 +1,16 @@
-import modals from "../routes/modals"
-import {useModal} from "../store/modal/hook"
+import modals from "../routes/modals";
+import { useModal } from "../store/modal/hook";
+import { removeModal } from "../store/modal/actions";
+export default function Modal() {
 
-export default function Modal(){
+	const modal = useModal()
+	const currentModal = modals.find(m => m.name === modal.name)
 
-    const modal=useModal()
-    const currentModal=modals.find(m=> m.name==modal.name)
-    return(
-        <div className="fixed inset-0 bg-[#5b7093]/40 flex items-center justify-center z-20">
-            <div className="bg-black max-w-[600px] w-full rounded-2xl max-h[90vh] overflow-auto">
-            {currentModal&&<currentModal.element/> }
-            </div>
-        </div>
-    )
+	return (
+		<div className="fixed inset-0 bg-[color:var(--background-modal)] flex items-center justify-center z-20">
+			<div className="bg-[color:var(--background-primary)] max-w-[600px] max-h-[90vh] overflow-auto rounded-2xl">
+				{currentModal && <currentModal.element close={removeModal} />}
+			</div>
+		</div>
+	)
 }
